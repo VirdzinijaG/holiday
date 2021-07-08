@@ -29,3 +29,24 @@ ul > li > a:hover {
     background-color: blue;
     color: white;
 }
+
+.button {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: 0.6 ease;
+}
+.btn:hover {
+    background-color: white;
+    color: blue;
+}
