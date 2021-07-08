@@ -14,11 +14,18 @@ ul > li > a {
     padding: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 1px solid white;
+    border: 1px solid transparent;
     transition: 0.6s ease;
 }
-
 ul > li > a:hover {
     background-color: white;
     color: blue;
+}
+.home {
+    background-color: white;
+    color: blue;
+}
+.home:hover {
+    background-color: blue;
+    color: white;
 }

@@ -11,8 +11,34 @@ body * {
 }
 
 main {
-    background-image: url(../img/Over-Water-Villas-Palms-What-to-Pack-on-Maldives-Holidays.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/Over-Water-Villas-Palms-What-to-Pack-on-Maldives-Holidays.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
+}
+
+.base {
+    max-width: 1600px;
+    margin: auto;
+}
+.text { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: capitalize;
+    font-size: 70px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 0s;
+}
+
+@keyframes example {
+  0%   { left:0px; top:200px;}
+  25%  { left:500px; top:60px;}
+  50%  { left:800px; top:250px;}
+  75%  { left:900px; top:200px;}
+  90% { left:1500px; top:300px;}
+  100% {left:850px; top:280px}
 }
